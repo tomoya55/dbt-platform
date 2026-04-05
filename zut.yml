@@ -1,0 +1,13 @@
+version: 1
+repo: tomoya55/dbt-platform
+baseBranch: main
+commands:
+  install: echo "no install yet"
+  lint: echo "no lint yet"
+  typecheck: echo "no typecheck yet"
+  unit: echo "no tests yet"
+checks:
+  required:
+    - lint
+    - typecheck
+    - unit
